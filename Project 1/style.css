@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+
+}
+
+
+body {
+    background-color: white;
+    background-image: url(images/pexels-mikhail-nilov-6963841.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+header {
+   
+    height: 118px; 
+    text-align: center; 
+    padding-bottom: 20px;
+    
+    
+}
+
+nav { 
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+ 
+    
+}
+
+main { 
+    
+    height: 1200px; 
+    text-align: center;
+    padding-top: 20px; 
+    padding-left: 240px;
+    padding-right: 240px; 
+}
+
+footer { 
+    background-color: rgba(2, 2, 2, 0.322);
+    height: 60px; 
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 87px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.no-underline {
+    text-decoration: none;
+
+
+}/* instaed of giving text decoration in nav give it inside .no underline and add to the specific woord by addind class*/
+footer p {
+    font-size: 15px;
+    text-decoration-color: tomato;
+
+}
+
+.maps {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+       
+}
